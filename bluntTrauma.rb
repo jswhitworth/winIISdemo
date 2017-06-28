@@ -1,10 +1,19 @@
 #
-# Cookbook Name:: InstallWindowsUpdates
+# Cookbook Name:: bluntTrauma
 # Recipe:: default
-# Author(s):: Otto Helweg
-#
+# Author(s):: T Danner
+
+# Voices Scream, Nothings Seen, Reals a Dream
+#                             - S. Tyler 
+
 
 # Configures Windows Update automatic updates
+# NEVER ERVER use this in prod, as there's no coordination with other pipeline processes nor
+# coordination  with security controls.
+
+# Basicly, this is a blunt powershell script using native commandlet to patch up a system, all rolled up
+# into a chef script
+
 powershell_script "install-windows-updates" do
   guard_interpreter :powershell_script
   # Set a 2 hour timeout
