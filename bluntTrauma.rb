@@ -2,6 +2,7 @@
 # Cookbook Name:: bluntTrauma
 # Recipe:: default
 # Author(s):: T Danner
+# Copyright:: 2017 Trace3, Inc.
 
 # Voices Scream, Nothings Seen, Reals a Dream
 #                             - S. Tyler 
